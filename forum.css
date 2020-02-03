@@ -1,0 +1,20 @@
+﻿a, a:active, a:link{color:orange;}
+a:hover{color:#ffd200;}
+th a{color:#fff;}
+th a:hover{color:orange;}
+td{padding-left:10px;}
+a.create_forum,a.create_forum:active{color:#fff;display:block;background-color:rgba(80,80,80,0.5);border-radius:10px;padding:5px 10px;font-size:18px;min-width:150px;margin-bottom:20px;}
+a.create_forum:hover{color:orange;}
+.last_right{border-bottom:2px solid #333;border-radius:0 0 15px 0;}
+.last_left{border-bottom:2px solid #333;border-radius:0 0 0 15px;}
+.forum{background-color:rgba(0, 0, 0, 0.5);border-radius:15px;color:#fff;text-align:left;width:100%;margin-bottom:20px;}
+.forum_header th{background-color:rgba(80, 80, 80, 0.5);border-radius:15px 15px 0 0;padding:5px 20px;font-size:22px;}
+.forum th:hover{color:orange}
+.subject{color:orange;font-size:20px;}
+.topics{color:orange;font-size:13px;padding-left:40px;}
+.description{color:#949494;font-size:13px;padding-left:40px;}
+.posts_container{overflow:hidden;text-align:left;clear:both;width:880px;padding:5px 20px;color:#d8d8bc;background-color:rgba(0, 0, 0, 0.5);border-radius:15px;margin-bottom:10px;}
+.post_user_container{overflow:hidden;margin-right:20px;padding-right:20px;border-right:1px solid gray;width:150px;}
+.post_avatar{border:1px solid orange;max-height:80px;max-width:80px;}
+.post_content_container{}
+.w65p{width:65%}

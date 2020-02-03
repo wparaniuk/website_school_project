@@ -1,0 +1,104 @@
+html,body { height: 100%; margin: 0px; padding: 0px; }
+body, html {
+	height: 100%;
+	margin: 0;
+	width:100%;
+	font: 400 15px/1.8 TVNordEF-RegularCon,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: #777;
+}
+
+a{text-decoration:none}
+
+.bg_img1,.bg_img2,.bg_img3{
+	position: relative;
+	opacity: 0.85;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.bg_img1{
+	background-image: url("images/bg_img1.jpg");
+	min-height: 100%;
+}
+
+.bg_img2{
+	background-image: url("images/bg_img2.jpg");
+	min-height: 100%;
+}
+
+.bg_img3{
+	background-image: url("images/bg_img3.jpg");
+	min-height: 100%;
+}
+
+.header1{
+	position:absolute;
+	top:35%;
+	display:inline-block;
+	opacity:.8;
+	width:360px;
+	margin-left:-180px;
+}
+
+.header2{
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #ddd;
+	text-align: center;
+}
+
+.header3{
+	position:absolute;
+	top:40%;
+	display:inline-block;
+	width:360px;
+	margin-left:-180px;
+}
+
+.border1{
+	background-color: #111;
+	color: #fff;
+	padding: 15px;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.border2{
+	background-color: #111;
+	color: #fff;
+	padding: 15px;
+	font-size: 30px;
+	letter-spacing: 4px;
+	opacity:.4;
+	transition:all .1s ease-in-out;
+}
+
+.header3:hover .border2{
+	opacity:1;
+	color:#d5d192;
+	border:2px solid #d5d192;
+}
+
+.content1{
+	position: relative;
+	color: #ddd;
+	font-size: 16px;
+	background-color: #282E34;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.footer{
+	background-color: #282E34;
+	color: #ddd;
+	padding:10px;
+	font-size: 16px;
+	text-align: center;
+    position:fixed;
+	width:100%;
+}

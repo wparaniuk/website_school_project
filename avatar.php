@@ -1,0 +1,1 @@
+<img class="av" src="<?if(($row_temp['status']=='0') || ($row_temp['login']=='Użytkownik nie istnieje.')){echo'images/avatars/profiledefault.png';}else{echo'images/avatars/'.$row_temp['id'].'-'.$row_temp['login'].'.'.$row_temp['status'].'';}?>"/>

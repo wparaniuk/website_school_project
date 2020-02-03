@@ -1,0 +1,60 @@
+﻿html,body { height: 100%; margin: 0px; padding: 0px; font-family: "Open Sans", Helvetica, Arial, sans-serif;}
+body.bg2{background: url("images/bg_img2.jpg") no-repeat top left;background-size:cover;}
+body.bg3{background: url("images/bg_img3.jpg") no-repeat top left;background-size:cover;}
+a.link{text-decoration:none;color:orange}
+.login_cont{width:33%;background-color:black;opacity:.7;display: inline-block;margin-top:3%;border-radius:15px;}
+.wrapper{text-align: center;height: 100%}
+.login_form{margin-top:50px;}
+.login_img{max-height:120px;}
+input[type=password] {
+    width: 70%;
+	color:#fff;
+    box-sizing: border-box;
+	border:0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	background-color:transparent;
+    background-image: url('images/padlock.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+	background-size: 25px;
+    padding: 15px 20px 12px 40px;
+	margin-bottom:15px;}
+input[type=text] {
+    width: 70%;
+	color:#fff;
+    box-sizing: border-box;
+	border:0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	background-color:transparent;
+    background-image: url('images/arrow.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+	background-size: 25px;
+    padding: 14px 20px 12px 40px;
+	margin-bottom:15px;}
+input[type=email] {
+    width: 70%;
+	color:#fff;
+    box-sizing: border-box;
+	border:0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	background-color:transparent;
+    background-image: url('images/email.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+	background-size: 25px;
+    padding: 10px 20px 12px 40px;
+	margin-bottom:15px;}
+input[type=submit] {
+    width: 70%;
+    background-color: #bdbdbd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-bottom:15px;
+	font-weight:bold;
+	transition:all .2s ease-in-out;}
+input[type=submit]:hover {background-color: #868686;}

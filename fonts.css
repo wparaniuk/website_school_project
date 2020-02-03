@@ -1,0 +1,8 @@
+@font-face {
+     font-family: Titillium-Regular;
+     src: url('fonts/Titillium-Regular.otf'); 
+	 format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+

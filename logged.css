@@ -1,0 +1,112 @@
+html,body { height: 100%; margin: 0px; padding: 0px;font-family:Titillium-Regular}
+body.bg2{background: url("images/bg_img2.jpg") no-repeat top left;background-size:cover;background-attachment: fixed;}
+body.bg3{background: url("images/bg_img3.jpg") no-repeat top left;background-size:cover;background-attachment: fixed;}
+
+.wrapper{text-align:center;height:100%;}
+
+.content{background:rgba(60,60,60,0.8);width:1000px;display:inline-block;border-radius:25px;margin:50px 0 50px 0;}
+
+.logo{padding:25px;float:left;}
+
+.nav{width:100%;float:left;background:transparent}
+
+.belka{width:100%;height:50px;float:left;background:transparent;margin-bottom:20px}
+
+.belkabtn{font-size:20px;line-height:50px;padding:0 11px 0 11px;height:100%;}
+
+a{text-decoration:none}
+
+ul{list-style-type: none;margin: 0;padding: 0;}
+
+li.left{float:left;width:250px}
+
+li.left a{display: block;color:orange;text-align:center;background-image:url("images/btn.jpg");border-right:2px solid #000;border-left:2px solid #000;transition:all .25s ease-in-out;}
+
+li.left_first a{border-left:4px solid #000}
+
+li.left_last a{border-right:4px solid #000}
+
+li.left a:hover{background-image:url("images/btn_hover.jpg");color:#ffd200}
+
+.articles{margin-left:20px;}
+
+.text{width:700px;color:#d8d8bc;padding:20px;background-color:rgba(0, 0, 0, 0.5);border-radius:15px;font-size:15px;margin-bottom:20px}
+
+.topic_container{width:920px;color:#d8d8bc;padding:20px;background-color:rgba(0, 0, 0, 0.5);border-radius:15px;font-size:15px;margin-bottom:20px}
+
+.title{color:white;font-weight:bold;text;text-transform: uppercase;font-family: 'Montserrat', sans-serif;font-size: 18px;font-weight: bold;}
+
+.timestamp{}
+
+.post{padding:0 20px 10px 20px;margin-bottom:10px;border-bottom:1px solid #949494;color:#949494}
+
+.author{font-style:italic;}
+
+.rightcont{color:#d8d8bc;float:right;margin-right:20px}
+
+.profile{width:200px;background-color:rgba(0, 0, 0, 0.5);border-radius:15px;margin-bottom:20px}
+
+.clock{width:200px;background-color:rgb(0, 0, 0);border-radius:15px;margin-bottom:20px}
+
+.footer{font-size:14px;margin:0 20px 20px 20px;width:960px;background-color:rgba(0, 0, 0, 0.5);height:40px;line-height:40px;color:#d8d8bc;float:left;border-radius:25px;}
+
+.avatar{padding:20px;}
+
+.av{max-width:100;max-height:100px;border:1px solid orange;margin: 0 20px;}
+
+.postbar{margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #949494;}
+
+.left{float:left}
+
+.right{float:right}
+
+.menu{}
+
+li.none{margin-left:25px;margin-top:3px;width:150px;}
+
+li.none a{text-align:center;display: block;background-color:rgba(0, 0, 0, 0.3);color:orange;border-radius:7px;transition:all .25s ease-in-out;border:1px solid gray;}
+
+li.none a:hover{background-color:rgba(222, 0, 0, 0.3);color:#ffd200;border:1px solid orange}
+
+.newsheader{margin:0 20px 10px 20px;padding-bottom:0}
+
+.news{margin:0 20px;padding-bottom:0;border-bottom:1px solid #949494;font-size:18px;}
+
+.shortnews{padding:10px;font-size:14px;}
+
+.gray{color:#949494}
+
+.orange{color:orange}
+
+a.white:hover{color:white}
+
+a.orange:hover{color:#ffd200}
+
+.w1{width:23px;}
+.w2{width:75px;}
+.w3{width:37px;}
+.w3{width:50px;}
+.w4{width:250px;}
+.w5{width:350px;}
+
+.select-style {margin-right:5px;border: 1px solid orange;border-radius: 3px;overflow: hidden;background-color: transparent;}
+
+.select-style select {border: none;box-shadow: none;text-align:left;background-color: transparent;-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+
+.overlay {position: fixed;top: 0;bottom: 0;left: 0;right: 0;background: rgba(0, 0, 0, 0.5);visibility: hidden;opacity: 0;}
+
+.overlay:target {visibility: visible;opacity: 1;}
+
+.popup {margin:200px auto;padding: 20px;background: rgba(0, 0, 0, 0.9);border-radius: 15px;width: 400px;position: relative;border:1px solid gray}
+
+.popup .close {position: absolute;top:-10px;right:5px;font-size: 30px;font-weight: bold;text-decoration: none;color: gray;}
+
+.popup .close:hover {color: orange;}
+
+.popupcontent {max-height: 30%;overflow: auto;}
+
+.popupsave{background-color:transparent;border:1px solid orange;border-radius:3px;margin-right:10px;}
+
+.email input,.email textarea{border-radius:3px;border:1px solid orange;background-color:transparent;margin-bottom:10px;padding-left:10px;font-size:15px;}
+
+.titilium{font-family:Titillium-Regular}
